@@ -53,7 +53,7 @@ def request_off(category, nutriscore):
 
 def get_substitute(category):
     """This function lists the substitutes"""
-    nutriscore_list = ["A", "B", "C", "D", "E"]
+    nutriscore_list = ["a", "b", "c", "d", "e"]
     list = []
     for nutriscore in nutriscore_list:
         if len(list) < 6:
