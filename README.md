@@ -11,7 +11,7 @@ La startup Pur Beurre, avec laquelle vous avez déjà travaillé, souhaite déve
 
 ## Livrables
 
-* Lien vers votre site en production, entièrement fonctionnel.
+* Lien vers votre site en production, entièrement fonctionnel : purbeurre69.herokuapp.com
 * Document écrit expliquant votre démarche de création, les difficultés rencontrées et la manière dont vous les avez résolues. Incluez-y le lien vers votre board Trello ou Pivotal Tracker, le lien vers votre repo Github et le site en production.  Le document doit être en format pdf et ne pas excéder 2 pages A4. Il peut être rédigé en anglais ou en français, au choix, mais prenez bien en considération que les fautes d’orthographe et de grammaire seront évaluées !
 
 ## Contraintes
