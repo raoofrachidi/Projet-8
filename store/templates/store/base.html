@@ -48,13 +48,11 @@
         </nav>
         {% block content %}{% endblock %}
         <!-- Footer-->
-        <footer>
+        <footer class="bg-light py-10">
           <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto text-center">
-                  <a href="{% url 'store:legalnotice' %}">Mentions légales</a>
+            <div class="row d-flex justify-content-around">
+                  <a href="{% url 'store:legalnotice' %}">À propos</a>
                   <a href="/#contact">Contact</a>
-              </div>
             </div>
           </div>
         </footer>
