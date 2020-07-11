@@ -101,6 +101,7 @@ def myfavorites(request):
 def search(request):
     """This view searches the product asked by the user"""
     query = request.GET.get('query')
+    print(query)
     if not query:
         messages.info(request, 'Veuillez saisir un produit.')
         return render(request, 'store/index.html')
