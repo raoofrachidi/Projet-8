@@ -17,3 +17,4 @@ env: DJANGO_SETTINGS_MODULE=disquaire_project.settings.travis
 
 script:
   - python manage.py test
+
