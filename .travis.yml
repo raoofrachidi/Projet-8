@@ -16,5 +16,5 @@ services:
 env: DJANGO_SETTINGS_MODULE=purbeurre_project.settings.travis
 
 script:
+  - cd store
   - python manage.py test
-
