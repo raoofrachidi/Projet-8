@@ -14,7 +14,6 @@ from .functions import *
 
 def index(request):
     """This view returns the home page"""
-    MAIS POURQUOI EST-IL SI MECHANT ?
     return render(request, 'store/index.html')
 
 
