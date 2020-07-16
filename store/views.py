@@ -169,3 +169,4 @@ def detail(request):
     for value , substitute_product in zip(session, substitutes):
         request.session[value] = substitute_product
     return render(request, 'store/detail.html')
+
