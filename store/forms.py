@@ -35,3 +35,4 @@ class UserSignUpForm(ModelForm):
         username = cleaned_data.get('username')
 
         return cleaned_data
+    
