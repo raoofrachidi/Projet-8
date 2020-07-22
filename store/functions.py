@@ -61,3 +61,4 @@ def get_substitute(category):
             for substitute in substitute_list:
                 list.append(substitute)
     return keeping_data(list)
+
