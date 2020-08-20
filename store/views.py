@@ -78,6 +78,23 @@ def myaccount(request):
     """This view displays a user account page"""
     return render(request, 'store/myaccount.html')
 
+@login_required
+def update(request):
+    """This view updates the user's profile"""
+    if request.method == 'POST':
+        u_form = UserUpdateForm()
+        if u_form.is_valid():
+            u_form.save()
+            messages.success(request, 'Votre profil a été mis à jour !')
+            return redirect('store:myaccount')
+    else:
+        u_form = UserUpdateForm(instance=request.user)
+
+    context = {
+        'u_form': u_form,
+    }
+    return render(request, 'store/update.html', context)
+
 
 @login_required
 def myfavorites(request):
