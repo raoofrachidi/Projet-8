@@ -35,3 +35,11 @@ class UserSignUpForm(ModelForm):
         username = cleaned_data.get('username')
 
         return cleaned_data
+    
+    
+class UserUpdateForm(ModelForm):
+    email = forms.EmailField()
+
+    class Meta:
+        model = User
+        fields = ['username', 'email']
