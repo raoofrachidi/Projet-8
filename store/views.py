@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect, get_object_or_404
 import requests
-from .forms import UserSignUpForm, ParagraphErrorList
+from .forms import UserSignUpForm, ParagraphErrorList, UserUpdateForm
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from .models import *
